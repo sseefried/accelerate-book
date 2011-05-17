@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #382513;
+}
+
+#container {
+  margin: 15px auto;
+  text-align: left;
+
+  padding: 0px;
+  width: 850px;
+}
+
+#header {
+  height: 80px;
+  padding: 15px;
+}
+
+#header h1 {
+  position: relative;
+  vertical-align: center;
+  color: #c02020;
+  margin-bottom: -10px;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.subheading {
+	color: #284907;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#sidebar {
+  margin: 0 0 15px 15px;
+  padding: 0px 15px 15px 15px;
+  float: left;
+  font: 12px Verdana;
+  line-height: 140%;
+  width: 175px;
+}
+
+#content h2 {
+  font-family: Helvetic, Arial, sans-serif;
+  border-bottom: 1px solid #ccc;
+  color: #c04040;
+}
+
+#content {
+  padding: 0 15px;
+  font-size: large;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 160%;
+  width: 750px;
+  color: #222;
+  margin: auto;
+}
+
+#footer {
+  clear: both;
+  border-top: 1px solid #AAA;
+  padding: 15px;
+  font: 12px Verdana;
+  margin-top: 15px;
+}
+
+a, a:visited {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-decoration: none;
+  color: #58f;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+pre.code {
+  margin: 0;
+  padding: 5px;
+  background: #F0F0F0;
+  font-size: 93%;
+  font-family: monospace;
+}
+
+/* Comment style */
+div.toggle { display: inline; }
+div.comment {
+  font-size: 12pt;
+  color: #555;
+  padding: 0.25em;
+  margin-bottom: 0.25em;
+  margin-left: 1em;
+}
+div.comment.mine {
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+div.comment.mine .username {
+  font-style: bold;
+}
+div.comment-text {
+  white-space: pre-line;
+}
+form.comment {
+  margin-left: 1em;
+}
+div.username {
+  margin-bottom: 0.5em;
+}
+.mine div.username {
+  font-weight: bold;
+}
+span.comment_error {
+  color: red;
+}
+span.date {
+  font-size: smaller;
+  color: #999;
+}
+.comment th {
+  text-align: right;
+  vertical-align: top;
+}
