@@ -1,0 +1,3 @@
+= The Accelerate Book =
+
+Learn how to program in Accelerate using this book.
